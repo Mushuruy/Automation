@@ -1,0 +1,260 @@
+{
+  "id": "c0861272-848b-48dc-83a6-22ef6edbcece",
+  "version": "2.0",
+  "name": "Wildberries",
+  "url": "https://www.wildberries.ru",
+  "tests": [{
+    "id": "7224106d-c878-47ae-97c7-05477027ecee",
+    "name": "Untitled",
+    "commands": [{
+      "id": "f9b24071-827f-4d8d-a7dd-94d81514c981",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8f161ee-db1c-4e4d-809d-155765e81fd1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79534556-50f6-4fe3-affa-925e90223e4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-element__burger",
+      "targets": [
+        ["css=.nav-element__burger", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe642cbc-e189-42c2-b006-b84fa804a9e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Обувь",
+      "targets": [
+        ["linkText=Обувь", "linkText"],
+        ["css=.menu-burger__main-list-link--629", "css:finder"],
+        ["xpath=//a[contains(text(),'Обувь')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/obuv')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Обувь')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bb39591-5f58-42d7-8e32-22ceef582b37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Обувь",
+      "targets": [
+        ["linkText=Обувь", "linkText"],
+        ["css=.menu-burger__main-list-link--629", "css:finder"],
+        ["xpath=//a[contains(text(),'Обувь')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/obuv')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Обувь')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "551c1e06-576a-437b-b12e-a3ea20f0c611",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Обувь",
+      "targets": [
+        ["linkText=Обувь", "linkText"],
+        ["css=.menu-burger__main-list-link--629", "css:finder"],
+        ["xpath=//a[contains(text(),'Обувь')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/obuv')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Обувь')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c035eec8-ef6a-4f54-8aec-1aeb452f668d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мужская",
+      "targets": [
+        ["linkText=Мужская", "linkText"],
+        ["css=li:nth-child(4) > .j-menu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Мужская')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div[2]/div/div[3]/div/div/div/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/obuv/muzhskaya')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul[2]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мужская')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6ac833c-f776-4128-83a4-b138e75b91e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#c141217830 .product-card__link",
+      "targets": [
+        ["css=#c141217830 .product-card__link", "css:finder"],
+        ["xpath=//article[@id='c141217830']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/141217830/detail.aspx')]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8c767c-6cc1-4eb9-b402-0d39ea3e3958",
+      "comment": "",
+      "command": "click",
+      "target": "css=#c141217830 .product-card__link",
+      "targets": [
+        ["css=#c141217830 .product-card__link", "css:finder"],
+        ["xpath=//article[@id='c141217830']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/141217830/detail.aspx')]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a118039-6aea-4cc2-9100-a08286893de6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#c141217830 .product-card__link",
+      "targets": [
+        ["css=#c141217830 .product-card__link", "css:finder"],
+        ["xpath=//article[@id='c141217830']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.wildberries.ru/catalog/141217830/detail.aspx')]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff897802-0787-452e-bcc3-d5bd4ac662a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sizes-list__item:nth-child(9) .sizes-list__size",
+      "targets": [
+        ["css=.sizes-list__item:nth-child(9) .sizes-list__size", "css:finder"],
+        ["xpath=//ul[@id='ae88f9b7-4b01-d265-91b2-74e128a3086b']/li[9]/label/span", "xpath:idRelative"],
+        ["xpath=//li[9]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1f6fdc5-8850-4e76-a0ea-3375c5a5a425",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .order .hide-mobile",
+      "targets": [
+        ["css=div:nth-child(3) > .order .hide-mobile", "css:finder"],
+        ["xpath=//div[@id='6ba5ce10-fb62-a9d8-676b-a8065d657727']/div[3]/div[11]/div/div/div[3]/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c22fe9a2-5f02-4cd8-a674-60e0555fd301",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Перейти в корзину",
+      "targets": [
+        ["linkText=Перейти в корзину", "linkText"],
+        ["css=div:nth-child(3) > .order > .j-go-to-basket", "css:finder"],
+        ["xpath=(//a[contains(text(),'Перейти в корзину')])[2]", "xpath:link"],
+        ["xpath=//div[@id='6ba5ce10-fb62-a9d8-676b-a8065d657727']/div[3]/div[11]/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/lk/basket')])[14]", "xpath:href"],
+        ["xpath=//div[11]/div/div/div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07f0ad47-ae01-4d6f-bea3-aa69b0c0b028",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=правилами пользования торговой площадкой",
+      "targets": [
+        ["linkText=правилами пользования торговой площадкой", "linkText"],
+        ["css=.basket-order__b-oferta-access > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'правилами пользования торговой площадкой')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div[4]/div/div/form/div[2]/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/pravila-polzovaniya-torgovoy-ploshchadkoy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'правилами пользования торговой площадкой')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6081aefa-c41b-4cb8-b9f0-e306337fc83d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=правилами пользования торговой площадкой",
+      "targets": [
+        ["linkText=правилами пользования торговой площадкой", "linkText"],
+        ["css=.basket-order__b-oferta-access > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'правилами пользования торговой площадкой')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div[4]/div/div/form/div[2]/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/services/pravila-polzovaniya-torgovoy-ploshchadkoy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'правилами пользования торговой площадкой')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67dde15e-1a9c-4e90-9b69-7ca704d3847f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn__del > span",
+      "targets": [
+        ["css=.btn__del > span", "css:finder"],
+        ["xpath=//div[@id='app']/div[4]/div/div/form/div/div/div[2]/div/div/div/div/div/div/div[3]/div[3]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Удалить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fb106e3-79c9-4a13-813f-fd0090ee12a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Перейти на главную",
+      "targets": [
+        ["linkText=Перейти на главную", "linkText"],
+        ["css=.basket-empty__btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Перейти на главную')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div[4]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[218]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Перейти на главную')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aca4493e-0d59-458e-ba1e-2f324efd97d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=banner_2772ba6d-240a-4d2b-a705-34871066fa96",
+      "targets": [
+        ["name=banner_2772ba6d-240a-4d2b-a705-34871066fa96", "name"],
+        ["css=.img-plug:nth-child(6) .swiper-lazy", "css:finder"],
+        ["xpath=//img[@alt='Новые коллекции']", "xpath:img"],
+        ["xpath=//img[@name='banner_2772ba6d-240a-4d2b-a705-34871066fa96']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[2]/div/div[2]/div/div/div/div[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "504abbe3-609b-40d7-8854-22407e9984b7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=banner_2772ba6d-240a-4d2b-a705-34871066fa96",
+      "targets": [
+        ["name=banner_2772ba6d-240a-4d2b-a705-34871066fa96", "name"],
+        ["css=.img-plug:nth-child(6) .swiper-lazy", "css:finder"],
+        ["xpath=//img[@alt='Новые коллекции']", "xpath:img"],
+        ["xpath=//img[@name='banner_2772ba6d-240a-4d2b-a705-34871066fa96']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[2]/div/div[2]/div/div/div/div[2]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9ef4de70-cc96-4d8d-b608-f5fbb5ff5ca9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7224106d-c878-47ae-97c7-05477027ecee"]
+  }],
+  "urls": ["https://www.wildberries.ru/"],
+  "plugins": []
+}
